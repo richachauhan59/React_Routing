@@ -1,13 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Routing} from './routes/Routing'
+// import { Routing} from './routes/Routing'
+import {Routing} from './Routing_Day_2/Routes_2/Routing'
+import {BrowserRouter} from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <h1>Routing</h1>
+      <BrowserRouter>
       <Routing/>
+     </BrowserRouter>
+     
     </div>
   );
 }
