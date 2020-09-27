@@ -1,16 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-// import { Routing} from './routes/Routing'
-import {Routing} from './Routing_Day_2/Routes_2/Routing'
-import {BrowserRouter} from 'react-router-dom'
+import { Routing} from './routes/Routing'
+// import {Routing} from './Routing_Day_2/Routes_2/Routing'
+import {HashRouter} from 'react-router-dom'
+import Link from './Routing_Day_4/Pages/Link'
+import {Routes} from './Routing_Day_4/Pages/Routes'
+
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-      <Routing/>
-     </BrowserRouter>
+      <HashRouter>
+      <Link />
+      <Routes/>
+        {/* <Routing/> */}
+     </HashRouter>
      
     </div>
   );

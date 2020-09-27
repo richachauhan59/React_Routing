@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {ContextProvider} from './Routing_Day_2/Context/context'
+// import {ContextProvider} from './Routing_Day_2/Context/context'
+import {ContextProvider} from './Routing_Day_4/Context/AuthContext'
 
 ReactDOM.render(
   <ContextProvider>
